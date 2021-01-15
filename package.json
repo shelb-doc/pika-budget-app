@@ -1,0 +1,27 @@
+{
+  "name": "pika-budget-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shelb-doc/pika-budget-app.git"
+  },
+  "author": "Shelby De Oliveira Cignetti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shelb-doc/pika-budget-app/issues"
+  },
+  "homepage": "https://github.com/shelb-doc/pika-budget-app#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lite-server": "^2.6.1",
+    "mongoose": "^5.11.12",
+    "morgan": "^1.10.0"
+  }
+}
